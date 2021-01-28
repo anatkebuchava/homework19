@@ -1,0 +1,397 @@
+body{
+    /* margin: 0; */
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.header-text{
+    font-size: 39pt;
+    color: #441930;
+    font-family: 'Quicksand', sans-serif;
+    width: 90%;
+    text-align: center;
+    font-weight: 100;
+    margin-right: 5%;
+}
+
+.matrix{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.background{
+    background-image: url("./svg/background-\ home\ page.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: ". cs"
+    "cn am";
+}
+
+
+.box{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 6px;
+    border-color: #FE0C97;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 196px;
+    height: 196px;
+    margin-left: 30%;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+.box:hover{
+    color: #FE0C97;
+    background-color: #FFDBF0;
+}
+
+.cs{
+    grid-area: cs;
+    margin-top: 20%;
+}
+.cs-text:hover{
+    color: #FE0C97;
+    font-weight: 600;
+}
+
+.am{
+    grid-area: am;
+}
+
+.am-text:hover{
+    color: #FE0C97;
+    font-weight: 600;
+}
+
+.cn{
+    grid-area: cn;
+}
+
+.cn-text:hover{
+    color: #FE0C97;
+    font-weight: 600;
+}
+
+.cs-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.am-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.cn-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.casestudies{
+    font-size: 39px;
+    font-family: 'Quicksand', sans-serif;
+    color: #30001A;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#casestudiesgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "spaceforcemockup sfdescriptiongrid"
+    "fraveldescriptiongrid fravelmockup"
+    "ngomockup ngodescriptiongrid";
+    row-gap: 10em;
+}
+
+#spaceforcemockup{
+    grid-area: spaceforcemockup;
+    height: 609px;
+    width: 908px;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+#fravelmockup{
+    grid-area: fravelmockup;
+    height: 609px;
+    width: 908px;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+#ngomockup{
+    grid-area: ngomockup;
+    height: 609px;
+    width: 908px;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+.sfdescriptiongrid{
+    grid-area: sfdescriptiongrid;
+}
+
+.fraveldescriptiongrid{
+    grid-area: fraveldescriptiongrid;
+}
+
+.ngodescriptiongrid{
+    grid-area: ngodescriptiongrid;
+}
+
+/* .casestudiesgridarea{
+    width: 90%;
+    height: auto;
+    margin: auto;
+} */
+
+/* .backgroundshadow{
+    width: 1000px;
+    height: 609px;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+} */
+
+.sfdescriptiongrid{
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 70%;
+    height: 534px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "sfheadline"
+    "sfmyrole"
+    "sfprojectname"
+    "sfdescription"
+    "sftools";
+}
+
+#sfmyrole{
+border-bottom: violet;
+margin-top:30px;
+}
+
+#sfheadline{
+    grid-area: sfheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+    padding-bottom: 30px;
+}
+
+#fravelheadline{
+    grid-area: fravelheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+    padding-bottom: 30px;
+}
+
+.fraveldescriptiongrid{
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 90%;
+    height: 534px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "fravelheadline"
+    "fravelmyrole"
+    "fravelprojectname"
+    "fraveldescription"
+    "fraveltools";
+}
+
+#ngoheadline{
+    grid-area: ngoheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+    padding-bottom: 30px;
+}
+
+.ngodescriptiongrid{
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 90%;
+    height: 534px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "ngoheadline"
+    "ngomyrole"
+    "ngoprojectname"
+    "ngodescription"
+    "ngotools";
+}
+
+
+#approach{
+    margin-top: 7%;
+    height: 10em;
+}
+
+.approachheadline{
+    font-size: 39px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: #30001A;
+    font-size: 39px;
+    font-weight: 100;
+}
+
+.approachheadline2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: #FE0C97;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.approachGrid{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "empathize define ideate"
+    "prototype test iterate";
+    row-gap: 2em;
+    column-gap: 1em;
+}
+
+.empathize{
+grid-area: empathize;
+}
+
+.define{
+    grid-area: define;
+}
+
+.ideate{
+    grid-area: ideate;
+}
+
+.prototype{
+    grid-area: prototype;
+}
+
+.test{
+    grid-area: test;
+}
+
+.iterate{
+    grid-area: iterate;
+}
+
+.approachgridarea{
+   height: 346px;
+   width: 467px; 
+}
+
+.approachtextbox{
+    display: relative;
+    top: 20px;
+    left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .approachGrid  {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "empathize" 
+    "define"
+    "ideate"
+    "prototype"
+    "test" 
+    "iterate";
+    row-gap: 2em;
+    }
+  }
+
+
+@media screen and (max-width: 600px){
+    .box{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 6px;
+        border-color: #FE0C97;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 132px;
+        height: 132px;
+        margin-left: 30%;
+        box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+    }
+  }
+
+  @media screen and (max-width: 600px){
+      .background background-image {
+          display: none;
+      }
+  }
+
+@media screen and (max-width: 600px) {
+    #casestudiesgrid  {
+    grid-template-columns: 90%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "spaceforcemockup" 
+    "sfdescriptiongrid"
+    "fravelmockup"
+    "fraveldescriptiongrid"
+    "ngomockup" 
+    "ngodescriptiongrid";
+    row-gap: 2em;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+      img{
+    width:  324px;
+    height: 208px;
+}
+  }
+
+  @media screen and (max-width: 600px){
+    .backgroundshadow{
+        width: 324px;
+        height: 208px;
+    }
+}
+

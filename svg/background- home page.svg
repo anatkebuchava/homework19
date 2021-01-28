@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1343.935" height="753.539" viewBox="0 0 1343.935 753.539">
+  <g id="Group_206" data-name="Group 206" transform="translate(-207 -215.461)">
+    <g id="Group_4" data-name="Group 4" transform="translate(229.208 217.5)">
+      <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+        <line id="Line_1" data-name="Line 1" y2="698.514" transform="translate(31.076)" fill="none" stroke="#50012c" stroke-width="3"/>
+        <line id="Line_2" data-name="Line 2" x2="1288.989" transform="translate(31.076 698.514)" fill="none" stroke="#50012c" stroke-width="3"/>
+        <path id="Path_1" data-name="Path 1" d="M100.449,142.186l31.076-27.666,28.1,27.666" transform="translate(-100.449 -114.504)" fill="none" stroke="#50012c" stroke-linecap="round" stroke-width="3"/>
+        <path id="Path_2" data-name="Path 2" d="M0,0,31.076,27.666,59.175,0" transform="translate(1292.006 729.378) rotate(-90)" fill="none" stroke="#50012c" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <line id="Line_3" data-name="Line 3" y2="617.583" transform="translate(659.824 14.143)" fill="none" stroke="#50012c" stroke-width="3" stroke-dasharray="5"/>
+      <line id="Line_4" data-name="Line 4" x2="1097" transform="translate(126.792 313.5)" fill="none" stroke="#50012c" stroke-width="3" stroke-dasharray="5"/>
+    </g>
+    <text id="Complexity" transform="translate(211 513) rotate(90)" fill="#50012c" font-size="18" font-family="Orbitron" font-weight="700"><tspan x="0" y="0">COMPLEXITY</tspan></text>
+    <text id="Impact" transform="translate(854 965)" fill="#50012c" font-size="18" font-family="Orbitron" font-weight="700"><tspan x="0" y="0">IMPACT</tspan></text>
+  </g>
+</svg>
